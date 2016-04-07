@@ -1,0 +1,40 @@
+.admin{
+	display: flex;
+	// box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
+	// padding: 10px;
+	.admin-editor{
+		flex:1;
+		padding: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		// box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
+		border:1px solid #e0e0e0;
+	}
+	.admin-preview{
+		margin-right: 20px;
+		// box-shadow: 0 3px 10px rgba(0,0,0,0.16), 0 3px 10px rgba(0,0,0,0.23);
+		border:1px solid #e0e0e0;
+		background-color: #f6f6f6;
+		padding:10px;
+		flex:1;
+		// height: 500px;
+		overflow: auto;
+	}
+}
+.admin-save-btn{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #03A9F4;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
+	border-radius: 2px;
+	transition:all .2s;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+	margin:20px;
+	&:hover{
+		background-color: #63CEFF;
+	}
+}

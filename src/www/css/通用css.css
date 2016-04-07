@@ -1,0 +1,54 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after{
+        content: "";
+        display: table;
+        clear: both;
+}
+
+
+body{
+  margin:0;
+  padding: 0;
+  font: 16px 'Microsoft Yahei',Arial,Verdana;
+  /*color: #666;*/
+  /*background: #fff;*/
+}
+ul,ol{
+  list-style: none;
+}
+ul,li{
+  margin:0;
+  padding: 0;
+}
+
+
+img{
+  border:0;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover { text-decoration: underline;}
+a:link,a:visited,a:focus{text-decoration: none;outline: none;}
+
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}

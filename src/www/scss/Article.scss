@@ -1,0 +1,32 @@
+.article-paper{
+	.head{
+		height:90px;
+		border-bottom: 1px solid #e0e0e0;
+		.pic{
+			margin: 25px 0 0 16px; 
+			border-radius:50%;
+			font-size:16px;
+			float: left;
+		}
+		.title{
+			margin-left:73px;
+			overflow: hidden;
+			font-size: 26px;
+			line-height: 60px;
+		}
+		.subtitle{
+			margin-left:73px;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 16px;
+			margin-top: -6px;
+			overflow: hidden;
+		}
+	}
+	.content{
+		word-break: break-all;
+		word-wrap:break-word;
+		min-height: 200px;
+		margin:20px 20px 20px 73px;
+	}
+}
